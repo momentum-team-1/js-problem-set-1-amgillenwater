@@ -17,11 +17,12 @@ function greeting(name) {
 // number which, when divided by 2, has a remainder of 1 or -1.
 function isOdd(num) {
     if (num % 2 === 1){
-    return true;}
-    else if (num % 2 === -1){
-    return true;}
-    else{
-    return false;}
+    return true;
+    } else if (num % 2 === -1) {
+    return true;
+    } else {
+    return false;
+    }
 }
 
 // 5. Create a function called isEven that, given a number, will
@@ -29,10 +30,11 @@ function isOdd(num) {
 // number which, when divided by 2, has a remainder of 0.
 
 function isEven(num){
-    if (num % 2 === 0){
-    return true;}
-    else{
-    return false;}
+    if (num % 2 === 0) {
+     return true;
+    } else {
+    return false;
+    }
 }
 
 // 6. Create a function called fahrenheitToCelsius that takes a
@@ -70,10 +72,11 @@ function fahrenheitToKelvin(fahrenheit){
 function lesser(num1,num2){
     let a = num1;
     let b = num2;
-    if (a > b){ 
-        return b;}
-    else{
-        return a;}
+    if (a > b) { 
+        return b;
+    } else {
+        return a;
+    }
 }
     
 // 9. Create a function called multigreeting that takes a name
@@ -89,14 +92,15 @@ function lesser(num1,num2){
 // If any other language code is used, return nothing.
 
 function multigreeting(name,language){
-    if (language === "en"){
-        return "Hello, " + name + "!";}
-    else if(language === "es"){
-        return "¡Hola, " + name + "!";}
-    else if (language === "fr"){
-        return "Bonjour, " + name + "!";}
-    else if (language === "eo"){
-        return "Saluton, " + name + "!";} 
+    if (language === "en") {
+        return "Hello, " + name + "!";
+    } else if(language === "es") {
+        return "¡Hola, " + name + "!";
+    } else if (language === "fr") {
+        return "Bonjour, " + name + "!";
+    } else if (language === "eo") {
+        return "Saluton, " + name + "!";
+    } 
 }
 
 // 10. The greatest common divisor (https://en.wikipedia.org/wiki/Greatest_common_divisor)
@@ -135,12 +139,12 @@ function gcd(a,b){
     }
     while (a != b) {
         if (a % 2 === 0){
-            a = a/2;}
-        else if (b % 2 === 0){
-            b = b/2;}
-        else if (a > b){
-            a = (a-b)/2;}
-        else{
+            a = a/2;
+        } else if (b % 2 === 0){
+            b = b/2;
+        } else if (a > b){
+            a = (a-b)/2;
+        } else{
             b=(b-a)/2;}
     }
     let g = a;
