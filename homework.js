@@ -70,10 +70,10 @@ function fahrenheitToKelvin(fahrenheit){
 function lesser(num1,num2){
     let a = num1;
     let b = num2;
-    if (a > b) 
-        return b;
-    else
-        return a;
+    if (a > b){
+        return b};
+    else{
+        return a};
 }
     
 // 9. Create a function called multigreeting that takes a name
